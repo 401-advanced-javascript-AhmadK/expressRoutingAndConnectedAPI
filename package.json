@@ -1,0 +1,32 @@
+{
+  "name": "expressRoutingAndConnectedAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-AhmadK/expressRoutingAndConnectedAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-AhmadK/expressRoutingAndConnectedAPI/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-AhmadK/expressRoutingAndConnectedAPI#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.1",
+    "cors": "^2.8.5",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.8.10",
+    "morgan": "^1.9.1"
+  }
+}
